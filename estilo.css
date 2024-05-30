@@ -1,0 +1,53 @@
+body{
+    background-image: url(img/star-wars-backgrounds-25_bc15ec98.jpeg);
+}
+#cabeza{
+    color: gold;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+#texto{
+    color: gold;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+#menu {
+    flex-grow: 1;
+    flex-basis: 50%;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    right:50px;
+}
+#menu > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+}
+#menu a {
+    color: gold;
+    padding:10px;
+}
+#menu a:hover{
+    background-color:gold;
+    border-radius: 20px;
+    transition: all 300ms ease-in;
+}
+#redes{
+    position:absolute;
+    top: 400px;
+    left: 600px;
+    margin: 100;
+    padding: 100;
+}
+
+
